@@ -5,10 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Monticello</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@100;500&family=Roboto:wght@900&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="./image/icon/Logo.svg" type="image/x-icon">
-  <!-- <link rel="stylesheet" type="text/css" href="slick/slick.css"/> -->
-  <!-- <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/> -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <link rel="stylesheet" href="./secondBlock.css">
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -20,7 +20,7 @@
       
       <nav class="conteiner-menu">
         <ul class="conteiner-menu-list">
-          <li class="conteiner-menu-list__link"><a href="#" class="link">About Us</a></li>
+          <li class="conteiner-menu-list__link"><a href="#about-us" class="link">About Us</a></li>
           <li class="conteiner-menu-list__link"><a href="#" class="link">projects</a></li>
           <li class="conteiner-menu-list__link"><a href="#" class="link">news</a></li>
           <li class="conteiner-menu-list__link"><a href="#" class="link">contact</a></li>
@@ -72,32 +72,71 @@
   </div>
 
   <main>
-  <!--Second block About Us-->
+  <!--Second block About Us past first-->
   <div class="about-us" id="about-us">
     <div class="line"></div>
     <p class="about-us__title">what we do</p>
 
     <div class="about-us__conteiner">
       <div class="about-us__image">
-        <img src="./image/jpeg/Back.jpg" alt="blue-squared">
-        <img src="./image/jpeg/joel-filipe-151697.jpg" alt="bild-filipe">
+        <img src="./image/jpeg/Back.jpg" alt="blue-squared" class="about-us__image image1">
+        <img src="./image/jpeg/joel-filipe-151697.jpg" alt="bild-filipe" class="about-us__image image2">
       </div>
 
       <div class="about-us-content">
         <p class="about-us-content__caption">One World</p>
         <p class="about-us-content__title">Trade Center</p>
         <p class="about-us-content__text">Increasing prosperity in our lives can be accomplished by having the right frame of mind. The truth is, our thoughts are very powerful.</p>
-        <button class="about-us-content__btn">more details</button>
-        <p class="about-us-content__desc">  New York City, United States - 1776 feet</p>
+        
+        <div class="container">
+          <button class="about-us-content__btn" id="myBtn">more details</button>
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2>Trade Center</h2>
+              </div>
+              <div class="modal-body">
+                <p>Increasing prosperity in our lives can be accomplished by having the right frame of mind. The truth is, our thoughts are very powerful.</p> <br>
+                <p>They are capable of influencing every aspect of our daily lives, from our physical health to our social behaviors. I’m sure you’ve heard the adage, “As you think, so shall you be.”<p> <br>
+                  
+                <p>If we want to improve our lives, we must first improve our thoughts. Harnessing the power of thought in a positive way has the ability to create great change in our lives, including our financial well-being and prosperity. But how? How do we take something as intangible as thoughts, and manifest them into a physical reality?</p> <br>
+                
+                <p>We must first understand that being prosperous is more than having a lot of money. Prosperity is a mindset, a way of interacting in our lives, and a way of thinking. Mastering this train of thought is not easy, but it is simple enough if we keep working on it consistently.</p> <br>
+                
+                <p>Following are some ideas to help you improve your thoughts, and ultimately attract more prosperity into your life:</p> <br>
+                
+                <p>Be grateful for the blessings in your life right now. Take a few minutes each day to express heartfelt gratitude for the good things in your life. Even more powerful, write a few of these blessings down each day. This helps to put your focus in the right direction — on abundance, not lack.</p> <br>
+                
+                <p>Use positive affirmations to begin training yourself to think positively. Use “I am” statements such as “I am worthy of all that is good.” Write the statements down and repeat them nightly before bed. Over time, this will implant these thoughts into your subconscious mind, and you will begin to naturally believe them.</p> <br>
+                
+                <p>Creative visualization can help you achieve prosperity by determining what it is you wish to achieve, and then thoroughly creating that image in your mind. This works in the same way affirmations do. Our subconscious will fill with images of prosperity, and eventually these subconscious “truths” will manifest in the physical. “See” yourself as being prosperous, and you will become so.</p> <br>
+                
+                <p>Encourage yourself with the belief that you can achieve great things. This could also be one of your affirmations, but expand on it. If you know you can earn a certain salary, tell yourself you can earn more. Allow yourself to believe all things are possible, and you will gain the confidence needed to reach higher than you ever imagined you could. If you believe you can do it, you are more likely to take the risks associated with people who are highly successful. Prosperity and success go hand in hand, so take risks and aim higher.</p> <br>
+                
+                <p>Start a savings account. As strange as it sounds, think about this: Like Attracts Like. Even if you can only afford to put a few dollars into your account every month, it will begin to build up and attract more money.</p> <br>
+                
+                <p>Finally, believe you are already wealthy. The creative ability of our thoughts is such that we lend more power and energy to whatever we consistently focus on. Focusing on lack will create more lack. Focusing on wealth and prosperity will create . . . guess what?</p> <br>
+                
+                <p>Remember that this is a process. You likely won’t change your circumstances in one day. But over time, with consistent focus, your thoughts will begin to attract what you want. Once you master this power of thought, there are truly no limits to what you can create!</p> <br>
+              </div>
+              <div class="close">Closed</div>
+            </div>
+          </div>
+        </div>
+        
+        <p class="about-us-content__desc"><i class="fas fa-map-marker-alt"></i>  New York City, United States - 1776 feet</p>
       </div>
     </div>
   </div>
   
+  <!--Second block About Us past past second-->
+
   </main>
 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script src="slick/slick.min.js"></script>
+  <script src="./js/modalBtn.js"></script>
   <script src="./js/script.js"></script>
 </body>
 </html>
