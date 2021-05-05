@@ -16,64 +16,49 @@
   src: local("GothamBook"), url("./fonts/GothamBook/GothamBook.woff") format("woff"), url("./fonts/GothamBook/GothamBook.ttf") format("truetype");
 }
 
-.about-us {
+.ab-us-part-sec {
   max-height: 875px;
   background-color: white;
 }
 
-.line {
-  width: 100px;
-  height: 1px;
-  margin: 100px auto 40px;
-  background-color: #2c4058;
-}
-
-.about-us__title {
-  font-family: 'Gotham';
-  font-size: 44px;
-  font-weight: bold;
-  line-height: 0.5;
-  text-align: center;
-  color: #2c4058;
-  text-transform: uppercase;
-  margin-bottom: 100px;
-}
-
-.about-us__conteiner {
+.ab-us-part-sec__conteiner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.image1 {
+.ab-us-part-sec__image {
+  margin-left: 125px;
+}
+
+.img1 {
   max-width: 485px;
   max-height: 390px;
 }
 
-.image2 {
+.img2 {
   max-width: 585px;
   max-height: 390px;
   position: relative;
-  top: 50px;
-  left: -280px;
+  right: 200px;
+  top: -320px;
 }
 
-.about-us-content {
-  margin-top: 5%;
-  margin-right: 5%;
-  margin-left: -15%;
-  margin-bottom: 15%;
+.ab-us-part-sec-content {
+  margin-left: 100px;
+  margin-top: 100px;
 }
 
-.about-us-content__caption {
+.ab-us-part-sec-content__caption {
   font-family: 'GothamBook';
   font-size: 22px;
   color: #2c4058;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
   text-transform: uppercase;
 }
 
-.about-us-content__title {
+.ab-us-part-sec-content__title {
+  width: 470px;
   font-family: 'Gotham';
   font-size: 44px;
   font-weight: bold;
@@ -83,17 +68,17 @@
   text-transform: uppercase;
 }
 
-.about-us-content__text {
+.ab-us-part-sec-content__text {
   max-width: 460px;
   font-family: "OpenSans", sans-serif;
   font-size: 18px;
   line-height: 1.67;
   text-align: left;
   color: #4b5562;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
-.about-us-content__btn {
+.ab-us-part-sec-content__btn {
   width: 190px;
   height: 50px;
   background-color: white;
@@ -105,15 +90,15 @@
   font-weight: bold;
   cursor: pointer;
   text-transform: uppercase;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
-.about-us-content__btn:hover {
+.ab-us-part-sec-content__btn:hover {
   font-family: 'Gotham';
   border: solid 3px #2c4058;
 }
 
-.about-us-content__btn:active {
+.ab-us-part-sec-content__btn:active {
   -webkit-transform: translateY(3px);
           transform: translateY(3px);
   -webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
@@ -170,7 +155,7 @@
   }
 }
 
-.close {
+.closed {
   color: #000000;
   float: right;
   font-size: 28px;
@@ -178,8 +163,8 @@
   font-family: "OpenSans", sans-serif;
 }
 
-.close:hover,
-.close:focus {
+.closed:hover,
+.closed:focus {
   color: #ffffff;
   text-decoration: none;
   cursor: pointer;
@@ -196,11 +181,11 @@
   color: #4b5562;
 }
 
-.about-us-content__desc {
+.ab-us-part-sec-content__desc {
   font-family: "OpenSans", sans-serif;
   font-size: 18px;
   font-style: italic;
   text-align: left;
   color: #2c4058;
 }
-/*# sourceMappingURL=secondBlock.css.map */
+/*# sourceMappingURL=secondBlockPart2.css.map */

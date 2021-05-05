@@ -2,7 +2,7 @@
 
 let modal = document.getElementById('myModal');
 let btn = document.getElementById("myBtn");
-let closed = document.getElementsByClassName("close")[0];
+let closed = document.getElementsByClassName("closed")[0];
 
 btn.onclick = function() {
   modal.style.display = "block";
