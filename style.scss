@@ -56,6 +56,11 @@ body {
   list-style: circle;
   color: white;
   font-size: 25px;
+  padding-right: 70px;
+}
+
+.conteiner-menu-list__link:last-child {
+  padding-right: 0px;
 }
 
 .conteiner-menu-list__link:hover {
@@ -63,7 +68,6 @@ body {
 }
 
 .link { 
-  padding-right: 70px;
   font-family: 'GothamBook';
   font-size: 14px;
   color: white;
