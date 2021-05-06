@@ -11,6 +11,7 @@ $(document).ready(function(){
   });
 });
 
+//scroll
 const anchors = document.querySelectorAll('a.scroll-to');
 
 for (let anchor of anchors) {
