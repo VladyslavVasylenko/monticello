@@ -169,7 +169,7 @@ body {
   background-color: white;
 }
 
-.img-text {
+.main-slide__img-text {
   font-family: 'Gotham';
   font-size: 80px;
   font-weight: bold;
@@ -182,7 +182,7 @@ body {
   padding-top: 20px;
 }
 
-.img-subtext {
+.main-slide__img-subtext {
   font-family: 'GothamBook';
   font-size: 18px;
   line-height: 1.22;
