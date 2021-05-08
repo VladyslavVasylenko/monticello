@@ -37,7 +37,6 @@
 .gallery__conteiner { 
   display: flex;
   justify-content: center;
-  margin-bottom: 60px;
 }
 
 // .gallery-firstblock { }
@@ -80,10 +79,24 @@
   border: solid 1px #2c4058;
   font-family: 'GothamBook';
   font-size: 14px;
-  line-height: 1.57;
-  text-align: center;
   color: #2c4058;
   cursor: pointer;
   text-transform: uppercase;
+  margin-top: 60px;
   margin-bottom: 40px;
+}
+
+.gallery-button:hover {
+  font-family: 'Gotham';
+  border: solid 3px #2c4058;
+}
+
+.gallery-button:active {
+  transform: translateY(3px);
+  box-shadow:1px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.gallery-second{
+  display: flex;
+  justify-content: center;
 }
