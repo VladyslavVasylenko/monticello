@@ -1,19 +1,19 @@
 @font-face {
   font-family: 'Gotham';
-  src: url("/fonts/GothamMediumRegular/Gotham Medium Regular.ttf");
-  src: local("Gotham"), url("/fonts/GothamMediumRegular/gotham-medium-webfont.woff") format("woff"), url("/fonts/GothamMediumRegular/Gotham Medium Regular.ttf") format("truetype");
+  src: url("../fonts/GothamMediumRegular/Gotham Medium Regular.ttf");
+  src: local("Gotham"), url("../fonts/GothamMediumRegular/gotham-medium-webfont.woff") format("woff"), url("../fonts/GothamMediumRegular/Gotham Medium Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: 'gothambold';
-  src: url("/fonts/gothambold/gothambold1.eot");
-  src: local("gothambold"), url("/fonts/gothambold/gothambold1.woff") format("woff"), url("/fonts/gothambold/gothambold1.ttf") format("truetype");
+  src: url("../fonts/gothambold/gothambold1.eot");
+  src: local("gothambold"), url("../fonts/gothambold/gothambold1.woff") format("woff"), url("../fonts/gothambold/gothambold1.ttf") format("truetype");
 }
 
 .contact {
   max-width: 1600px;
   height: 700px;
-  background: url(/image/jpeg/Map.jpg) no-repeat center center;
+  background: url(../image/jpeg/Map.jpg) no-repeat center center;
 }
 
 .contact-conteiner {
@@ -30,7 +30,7 @@
 
 .background-img {
   height: 440px;
-  background: url(/image/jpeg/contactBlock.jpg) no-repeat center center;
+  background: url(../image/jpeg/contactBlock.jpg) no-repeat center center;
 }
 
 .contact__hr {
@@ -141,10 +141,14 @@
 
 .contact-form__email:hover {
   color: #2c4058;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 
 .contact-form__str2:hover {
   border-bottom: solid 1px #2c4058;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 
 .contact-form__button {

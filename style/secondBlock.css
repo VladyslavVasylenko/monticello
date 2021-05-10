@@ -6,14 +6,14 @@
 
 @font-face {
   font-family: 'gothambold';
-  src: url("/fonts/gothambold/gothambold1.eot");
-  src: local("gothambold"), url("/fonts/gothambold/gothambold1.woff") format("woff"), url("/fonts/gothambold/gothambold1.ttf") format("truetype");
+  src: url("../fonts/gothambold/gothambold1.eot");
+  src: local("gothambold"), url("../fonts/gothambold/gothambold1.woff") format("woff"), url("../fonts/gothambold/gothambold1.ttf") format("truetype");
 }
 
 @font-face {
   font-family: 'GothamBook';
-  src: url("/fonts/GothamBook/GothamBook.eot");
-  src: local("GothamBook"), url("/fonts/GothamBook/GothamBook.woff") format("woff"), url("/fonts/GothamBook/GothamBook.ttf") format("truetype");
+  src: url("../fonts/GothamBook/GothamBook.eot");
+  src: local("GothamBook"), url("../fonts/GothamBook/GothamBook.woff") format("woff"), url("../fonts/GothamBook/GothamBook.ttf") format("truetype");
 }
 
 .projects {
