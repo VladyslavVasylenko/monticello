@@ -56,12 +56,11 @@
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
+          transform: perspective(1px) translateZ(0);
   -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
           box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
   transition-property: transform;
@@ -69,8 +68,8 @@
 }
 
 .img2:hover, .img2:focus, .img2:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .projects-part-sec-content {

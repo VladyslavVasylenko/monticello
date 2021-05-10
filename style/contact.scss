@@ -18,12 +18,18 @@
 
 .contact-conteiner { 
   width: 770px;
-  height: 450px;
-  background-color: white;
+  height: 500px;
+  background-color: #FFFFFF;
   position: relative;
   top: 400px;
   left: 415px;
   padding-top: 1px;
+  box-shadow: 0px -4px 30px 0 rgba(133, 133, 133, 0.2);
+}
+
+.background-img {
+  height: 440px;
+  background: url(/image/jpeg/contactBlock.jpg) no-repeat center center;
 }
 
 .contact__hr { 
@@ -57,23 +63,26 @@
   font-size: 18px;
   text-align: left;
   color: #2c4058;
-  padding-bottom: 13%;
+  padding-bottom: 14%;
 }
 
 .contact__item:last-child { 
   padding-bottom:0;
 }
 
-.fas {
+.fa-map-marker-alt,
+.fa-phone-alt,
+.fa-inbox {
   color: #7e5aff;
 }
 
-.far {
+.fa-clock {
   color: #7e5aff;
 }
 
 .contact__item:hover {
-  font-family: 'gothambold';
+  color: #7e5aff;
+  transition-duration: 0.5s;
 }
 
 //Form
@@ -99,10 +108,12 @@
 
 .contact-form__mollie:hover {
   color:#2c4058;
+  transition-duration: 0.5s;
 }
 
 .contact-form__str:hover{
   border-bottom:solid 1px #2c4058;
+  transition-duration: 0.5s;
 }
 
 .contact-form__email { 

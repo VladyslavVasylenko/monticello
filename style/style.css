@@ -60,11 +60,11 @@ body {
   list-style: circle;
   color: white;
   font-size: 25px;
-  padding-right: 70px;
+  margin-right: 70px;
 }
 
 .conteiner-menu-list__link:last-child {
-  padding-right: 0px;
+  margin-right: 0px;
 }
 
 .conteiner-menu-list__link:hover {
@@ -115,6 +115,8 @@ body {
 .fab:hover {
   color: #00ff0d;
   border: solid 1px #00ff0d;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 
 .main-slide .slick-slider {
@@ -236,5 +238,7 @@ body {
 .fa-angle-down:hover {
   color: aqua;
   border: solid 1px aqua;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 /*# sourceMappingURL=style.css.map */

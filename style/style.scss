@@ -56,11 +56,11 @@ body {
   list-style: circle;
   color: white;
   font-size: 25px;
-  padding-right: 70px;
+  margin-right: 70px;
 }
 
 .conteiner-menu-list__link:last-child {
-  padding-right: 0px;
+  margin-right: 0px;
 }
 
 .conteiner-menu-list__link:hover {
@@ -109,6 +109,7 @@ body {
 .fab:hover{
   color: rgb(0, 255, 13);
   border: solid 1px rgb(0, 255, 13);
+  transition-duration: 0.5s;
 }
 
 //Main Slide
@@ -217,4 +218,5 @@ body {
 .fa-angle-down:hover { 
   color: aqua;
   border: solid 1px aqua;
+  transition-duration: 0.5s;
 }

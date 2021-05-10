@@ -8,6 +8,7 @@
   <link rel="shortcut icon" href="./image/icon/Logo.svg" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@100;500&family=Roboto:wght@900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style/footer.css">
   <link rel="stylesheet" href="./style/contact.css">
   <link rel="stylesheet" href="./style/gallery.css">
   <link rel="stylesheet" href="./style/latest-news.css">
@@ -17,7 +18,7 @@
 </head>
 <body class="conteiner-center">
   <!--First block-->
-  <header class="conteiner">
+  <header class="conteiner" id="top">
     <!--Menu--> 
     <div class="header-conteiner">
       <img src="./image/icon/Logo.svg" alt="icon" class="icon">
@@ -427,27 +428,29 @@
     <!--Five block Contact-->
     <div class="contact" id="contact">
       <div class="contact-conteiner">
-        <div class="contact__hr"></div>
-        <p class="contact__title">get in touch</p>
-        <div class="contact-block">
-          <ul class="contact__list">
-            <li class="contact__item"><i class="fas fa-map-marker-alt"></i>  91 Nolan Extensions Suite 670</li>
-            <li class="contact__item"><i class="fas fa-phone-alt"></i>  +001 356-868-2454</li>
-            <li class="contact__item"><i class="fas fa-inbox"></i>  gahuy93@gmail.com</li>
-            <li class="contact__item"><i class="far fa-clock"></i>  From 07:05AM to 19:30PM</li>
-          </ul>
-          <div class="contact-form">
-            <form action="#" class="contact-form__form">
-              <label class="contact-form__mollie">Mollie Medina <br>
-                <input type="text" class="contact-form__str" name="Mollie Medina" required>
-              </label>
-
-              <label class="contact-form__email">Email <br>
-                <input type="email" class="contact-form__str2" name="Email" required>
-              </label>
-
-              <input class="contact-form__button" type="submit" value="submit">
-            </form>
+        <div class="background-img">
+          <div class="contact__hr"></div>
+          <p class="contact__title">get in touch</p>
+          <div class="contact-block">
+            <ul class="contact__list">
+              <li class="contact__item"><i class="fas fa-map-marker-alt"></i>  91 Nolan Extensions Suite 670</li>
+              <li class="contact__item"><i class="fas fa-phone-alt"></i>  +001 356-868-2454</li>
+              <li class="contact__item"><i class="fas fa-inbox"></i>  gahuy93@gmail.com</li>
+              <li class="contact__item"><i class="far fa-clock"></i>  From 07:05AM to 19:30PM</li>
+            </ul>
+            <div class="contact-form">
+              <form action="#" class="contact-form__form">
+                <label class="contact-form__mollie">Mollie Medina <br>
+                  <input type="text" class="contact-form__str" name="Mollie Medina" required>
+                </label>
+  
+                <label class="contact-form__email">Email <br>
+                  <input type="email" class="contact-form__str2" name="Email" required>
+                </label>
+  
+                <input class="contact-form__button" type="submit" value="submit">
+              </form>
+            </div>
           </div>
         </div>
       </div>
@@ -456,15 +459,18 @@
 
   <!--Footer -->
   <footer class="footer">
-    <img src="/image/icon/Logo.svg" alt="logo" class="footer__logo">
-    <div class="footer-icon">
-      <ul class="footer-icon__list">
-        <li class="footer-icon__link"><a href="https://uk-ua.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-        <li class="footer-icon__link"><a href="https://twitter.com/?lang=ru" target="_blank"><i class="fab fa-twitter"></i></a></li>
-        <li class="footer-icon__link"><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-      </ul>
+    <div class="footer-conteiner">
+      <a href="#top"><img src="/image/icon/Logo.svg" alt="logo" class="footer__logo"></a> 
+      <div class="footer-icon">
+        <ul class="footer-icon__list">
+          <li class="footer-icon__link"><a href="https://uk-ua.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+          <li class="footer-icon__link"><a href="https://twitter.com/?lang=ru" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          <li class="footer-icon__link"><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
     </div>
-    <p class="footer__date">Copyrights © 2017 Monticello Group | Made with  by Ga Huy</p>
+
+    <p class="footer__date">Copyrights © 2017 Monticello Group <span class="vert-line">|</span> Made with <i class="fas fa-heart"></i> by Ga Huy</p>
   </footer>
 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
