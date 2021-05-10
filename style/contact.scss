@@ -1,22 +1,22 @@
 @font-face {
   font-family: 'Gotham';
-  src: url("./fonts/GothamMediumRegular/Gotham Medium Regular.ttf");
-  src: local("Gotham"), url("./fonts/GothamMediumRegular/gotham-medium-webfont.woff") format("woff"), url("./fonts/GothamMediumRegular/Gotham Medium Regular.ttf") format("truetype");
+  src: url('/fonts/GothamMediumRegular/Gotham\ Medium\ Regular.ttf');
+  src: local('Gotham'), url('/fonts/GothamMediumRegular/gotham-medium-webfont.woff') format('woff'), url('/fonts/GothamMediumRegular/Gotham\ Medium\ Regular.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'gothambold';
-  src: url("./fonts/gothambold/gothambold1.eot");
-  src: local("gothambold"), url("./fonts/gothambold/gothambold1.woff") format("woff"), url("./fonts/gothambold/gothambold1.ttf") format("truetype");
+	font-family: 'gothambold';
+	src: url('/fonts/gothambold/gothambold1.eot');
+	src: local('gothambold'), url('/fonts/gothambold/gothambold1.woff') format('woff'), url('/fonts/gothambold/gothambold1.ttf') format('truetype');
 }
 
-.contact {
+.contact { 
   max-width: 1600px;
   height: 700px;
-  background: url(./image/jpeg/Map.jpg) no-repeat center center;
+  background: url(/image/jpeg/Map.jpg) no-repeat center center;
 }
 
-.contact-conteiner {
+.contact-conteiner { 
   width: 770px;
   height: 450px;
   background-color: white;
@@ -26,14 +26,14 @@
   padding-top: 1px;
 }
 
-.contact__hr {
+.contact__hr { 
   width: 100px;
   height: 1px;
   margin: 60px auto 40px;
   background-color: #2c4058;
 }
 
-.contact__title {
+.contact__title { 
   font-family: 'Gotham';
   font-size: 44px;
   font-weight: 500;
@@ -43,19 +43,16 @@
   margin-bottom: 60px;
 }
 
-.contact-block {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.contact-block { 
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
-.contact__list {
+.contact__list { 
   list-style-type: none;
 }
 
-.contact__item {
+.contact__item { 
   font-family: 'Gotham';
   font-size: 18px;
   text-align: left;
@@ -63,8 +60,8 @@
   padding-bottom: 13%;
 }
 
-.contact__item:last-child {
-  padding-bottom: 0;
+.contact__item:last-child { 
+  padding-bottom:0;
 }
 
 .fas {
@@ -79,17 +76,15 @@
   font-family: 'gothambold';
 }
 
-.contact-form__form {
-  display: -webkit-box;
-  display: -ms-flexbox;
+//Form
+// .contact-form { }
+
+.contact-form__form { 
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
-.contact-form__mollie {
+.contact-form__mollie{ 
   font-family: 'Gotham';
   font-size: 18px;
   text-align: left;
@@ -103,14 +98,14 @@
 }
 
 .contact-form__mollie:hover {
-  color: #2c4058;
+  color:#2c4058;
 }
 
-.contact-form__str:hover {
-  border-bottom: solid 1px #2c4058;
+.contact-form__str:hover{
+  border-bottom:solid 1px #2c4058;
 }
 
-.contact-form__email {
+.contact-form__email { 
   font-family: 'Gotham';
   font-size: 18px;
   text-align: left;
@@ -125,11 +120,11 @@
 }
 
 .contact-form__email:hover {
-  color: #2c4058;
+  color:#2c4058;
 }
 
-.contact-form__str2:hover {
-  border-bottom: solid 1px #2c4058;
+.contact-form__str2:hover{
+  border-bottom:solid 1px #2c4058;
 }
 
 .contact-form__button {
@@ -151,9 +146,6 @@
 }
 
 .contact-form__button:active {
-  -webkit-transform: translateY(3px);
-          transform: translateY(3px);
-  -webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
-          box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+  transform: translateY(3px);
+  box-shadow:1px 2px 5px rgba(0, 0, 0, 0.5);
 }
-/*# sourceMappingURL=contact.css.map */
