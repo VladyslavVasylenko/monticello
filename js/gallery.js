@@ -1,7 +1,7 @@
 "use strict";
 
 // function clickBtn () {
-//   document.getElementById('gallerys').innerHTML =( `
+//   document.getElementById('galleries').innerHTML =( `
 //     <div class="gallery-firstblock">
 //       <img src="./image/jpeg/scott-webb-176434.jpg" alt="scott-web" class="gallery-firstblock__bgimg">
 //     </div>
@@ -37,14 +37,15 @@ let gallery = (`
 
 let noImg = '<p class="gallery__desc">Sory but we don`t have more image.</p>';
 
+let clickTims = 0; 
+
 function clickBtn () {
-  let result = document.getElementById('gallerys').innerHTML = gallery; 
-  for (let i = 0; i <= 3; i++) {
-    if(i <= 3) {
-      result;
-    } else {
-      document.getElementById('gallerys').innerHTML = noImg;
-    }
+
+  if(clickTims <= 3) {
+    document.getElementById('galleries').innerHTML = gallery; 
+    clickTims++;
+  } else {
+    document.getElementById('galleries').innerHTML = noImg;
   }
 }
 
