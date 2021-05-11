@@ -37,11 +37,13 @@ body {
 
 .header-conteiner { 
   max-width: 1100px;
-  margin: 0 auto;
-  padding-top: 50px;
+  margin: auto;
+  padding: 50px 0px 0 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  // position: fixed; /* Set the navbar to fixed position */
+  // top: 0;
 }
 
 // .icon { }
@@ -115,6 +117,8 @@ body {
 //Main Slide
 .main-slide .slick-slider {
 	min-width: 0;
+  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .main-slide .slick-list {

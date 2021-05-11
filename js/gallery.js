@@ -16,15 +16,15 @@ let gallery = (`
   </div>
 `);
 
-let noImg = '<p class="gallery__desc">Sory but we don`t have more image.</p>';
+const noImg = '<p class="gallery__desc">Sorry but we don`t have more image.</p>';
 
-let clickTims = 0; 
+let clicks = 0; 
 
-function clickBtn () {
+function clickBtn() {
 
-  if(clickTims <= 3) {
+  if(clicks <= 3) {
     document.getElementById('galleries').innerHTML = gallery; 
-    clickTims++;
+    clicks++;
   } else {
     document.getElementById('galleries').innerHTML = noImg;
   }
