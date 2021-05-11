@@ -162,4 +162,12 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+.gallery__desc {
+  font-family: 'Gotham';
+  font-size: 18px;
+  text-align: center;
+  color: #2c4058;
+  text-transform: uppercase;
+}
 /*# sourceMappingURL=gallery.css.map */
