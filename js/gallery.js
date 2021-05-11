@@ -1,7 +1,7 @@
 "use strict";
 
 function clickBtn () {
-  document.getElementById('gallerys').innerHTML =( `
+  document.getElementById('galleries').innerHTML =( `
     <div class="gallery-firstblock">
       <img src="./image/jpeg/scott-webb-176434.jpg" alt="scott-web" class="gallery-firstblock__bgimg">
     </div>
