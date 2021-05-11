@@ -22,11 +22,16 @@ let clicks = 0;
 
 function clickBtn() {
 
-  if(clicks <= 3) {
-    document.getElementById('galleries').innerHTML = gallery; 
+  if(clicks < 3) {
+    let galleries = document.getElementById('galleriess');
+    galleries.innerHTML = gallery; 
+
+    document.getElementById('galleries').append(galleries);
+
     clicks++;
   } else {
     document.getElementById('galleries').innerHTML = noImg;
   }
 }
 
+    // document.getElementById('galleries').innerHTML = (gallery); 
