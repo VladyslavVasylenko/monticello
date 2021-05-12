@@ -16,18 +16,19 @@
   <link rel="stylesheet" href="./style/secondBlock.css">
   <link rel="stylesheet" href="./style/style.css">
 </head>
-<body class="conteiner-center">
+<body class="conteiner-center" id="top">
   <!--First block-->
-  <header class="conteiner" id="top">
+  <header class="conteiner">
     <!--Menu--> 
     <div class="header-conteiner">
       <img src="./image/icon/Logo.svg" alt="icon" class="icon">
       
       <nav class="conteiner-menu">
-        <ul class="conteiner-menu-list">
-          <li class="conteiner-menu-list__link"><a href="#gallery" class="link scroll-to">About Us</a></li>
+        <ul class="conteiner-menu-list" id="active">
+          <li class="conteiner-menu-list__link"><a href="#top" class="link scroll-to active" >About Us</a></li>
           <li class="conteiner-menu-list__link"><a href="#projects" class="link scroll-to">projects</a></li>
           <li class="conteiner-menu-list__link"><a href="#news" class="link scroll-to">news</a></li>
+          <li class="conteiner-menu-list__link"><a href="#gallery" class="link scroll-to">gallery</li>
           <li class="conteiner-menu-list__link"><a href="#contact" class="link scroll-to">contact</a></li>
         </ul>
       </nav>
@@ -277,7 +278,7 @@
           <img src="./image/jpeg/Gtu-tram-pham-202263.jpg" alt="Gtu-tram" class="gallery-thrblock__img">
         </div>
       </div>
-      <div class="gallery-second" id="galleries"></div>
+      <div class="gallery-galleries" id="galleries"></div>
       <button class="gallery-button" onclick="clickBtn()">see more</button>
     </div>
     

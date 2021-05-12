@@ -1,5 +1,6 @@
 "use strict";
 
+//main slide
 $(document).ready(function(){
   $('.main-slide').slick({
     dots: true,
@@ -24,5 +25,18 @@ for (let anchor of anchors) {
       behavior: 'smooth',
       block: 'start',
     });
+  });
+}
+
+//active class
+let ulContainer = document.getElementById("active");
+
+let li = ulContainer.getElementsByClassName("conteiner-menu-list__link");
+
+for (let i = 0; i < li.length; i++) {
+  li[i].addEventListener("click", function() {
+    let current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
   });
 }
