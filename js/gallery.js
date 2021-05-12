@@ -23,7 +23,6 @@ const noImg = '<p class="gallery__desc">Sorry but we don`t have more image.</p>'
 let clicks = 0; 
 
 function clickBtn() {
-
   if(clicks < 3) {
     let element = document.createElement('div');
     element.innerHTML = gallery;
