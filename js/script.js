@@ -1,5 +1,6 @@
 "use strict";
 
+//main slide
 $(document).ready(function(){
   $('.main-slide').slick({
     dots: true,
