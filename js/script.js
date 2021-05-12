@@ -27,3 +27,17 @@ for (let anchor of anchors) {
     });
   });
 }
+
+var ulContainer = document.getElementById("active");
+
+// Get all buttons with class="btn" inside the container
+var li = ulContainer.getElementsByClassName("conteiner-menu-list__link");
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < li.length; i++) {
+  li[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
