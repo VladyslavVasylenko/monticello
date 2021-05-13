@@ -132,9 +132,9 @@
 
 .modal-content {
   position: relative;
-  background-color: #ffffffe0;
+  background-color: #ffffff;
   margin: auto;
-  background-color: #ffffffe0;
+  background-color: #ffffff;
   width: 50%;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
   -webkit-animation-name: animatetop;
@@ -169,12 +169,14 @@
 }
 
 .modal-header {
+  font-size: 20px;
   padding: 2px 16px;
   background-color: #ffffffef;
   color: #4b5562;
 }
 
 .modal-body {
+  font-size: 18px;
   padding: 2px 16px;
   color: #4b5562;
 }
