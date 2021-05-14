@@ -18,13 +18,13 @@ let gallery = (`
   </div>
 `);
 
-const noImg = '<p class="gallery__desc">Sorry but we don`t have more image.</p>';
+const noImgMassege = '<p class="gallery__desc">Sorry but we don`t have more image.</p>';
 
 let clicks = 0; 
 
-let btnClick = document.getElementById("btnClick");
+let seeMoreBtn = document.getElementById("see-More-Btn");
 
-btnClick.onclick = function() {
+seeMoreBtn.onclick = function() {
   if(clicks < 3) {
     let element = document.createElement('div');
     element.innerHTML = gallery;
@@ -32,8 +32,8 @@ btnClick.onclick = function() {
     clicks++;
   } else {
     let noImage = document.createElement('p');
-    noImage.innerHTML = noImg;
+    noImage.innerHTML = noImgMassege;
     galleries.appendChild(noImage);
-    // document.getElementById('galleries').innerHTML = noImg;
+    seeMoreBtn.classList.add('gallery-button--hidden');
   }
 }
