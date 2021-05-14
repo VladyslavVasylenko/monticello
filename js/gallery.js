@@ -18,7 +18,7 @@ let gallery = (`
   </div>
 `);
 
-const noImgMassege = '<p class="gallery__desc">Sorry but we don`t have more image.</p>';
+const noImgMassege = '<p class="gallery__desc">Sorry but we don`t have more images.</p>';
 
 let clicks = 0; 
 
