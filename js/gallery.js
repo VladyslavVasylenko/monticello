@@ -22,13 +22,18 @@ const noImg = '<p class="gallery__desc">Sorry but we don`t have more image.</p>'
 
 let clicks = 0; 
 
-function clickBtn() {
+let btnClick = document.getElementById("btnClick");
+
+btnClick.onclick = function() {
   if(clicks < 3) {
     let element = document.createElement('div');
     element.innerHTML = gallery;
     galleries.appendChild(element);
     clicks++;
   } else {
-    document.getElementById('galleries').innerHTML = noImg;
+    let noImage = document.createElement('p');
+    noImage.innerHTML = noImg;
+    galleries.appendChild(noImage);
+    // document.getElementById('galleries').innerHTML = noImg;
   }
 }
