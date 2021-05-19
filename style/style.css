@@ -36,9 +36,9 @@ body {
 }
 
 .header-conteiner {
-  width: 100%;
+  width: 84%;
   height: 100px;
-  margin: auto;
+  margin: 0 auto;
   padding: 50px 150px 50px 150px;
   display: -webkit-box;
   display: -ms-flexbox;
